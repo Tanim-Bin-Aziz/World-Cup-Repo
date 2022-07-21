@@ -184,3 +184,34 @@ hr {
     gap: 5%;
     margin-top: 50px;
 }
+--
+
+/* mobile device*/
+@media only screen and (max-width:688px; ) {
+    .sec-1 .sec-2 .sec-3 {
+        width: 100%;
+    }
+
+    .sec-1 .sec-2 .sec-3 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .sec-1 .sec-2 .sec-3 {
+        flex-direction: column;
+    }
+}
+
+/*tablet Device*/
+@media only screen and (min-width 688px; ) and (max-width:992px) {
+    .sec-1 .sec-2 .sec-3 {
+        width: 100%;
+    }
+}
+
+.sec-1 .sec-2 .sec-3 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.sec-1 .sec-2 .sec-3 {
+    flex-direction: column;
+}
